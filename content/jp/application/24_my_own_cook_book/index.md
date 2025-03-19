@@ -1,9 +1,8 @@
 ---
-title: "アプリケーション紹介"
+title: "（2024年度）mocobo/モコボ（my own cook book/自分だけのレシピ帳）"
 date: 2024-10-03
 ---
-## アプリ名
-mocobo/モコボ（my own cook book/自分だけのレシピ帳）
+<!--more-->
 
 ## 仕様
 ### ホーム画面
