@@ -1,7 +1,6 @@
 ---
 title: "アプリケーション紹介"
 date: 2025-03-18
-type: "page"
 ---
 ## アプリ名
 mocobo/モコボ（my own cook book/自分だけのレシピ帳）
