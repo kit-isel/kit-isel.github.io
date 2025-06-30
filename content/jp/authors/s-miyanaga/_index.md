@@ -14,7 +14,12 @@ authors:
 superuser: false
 
 # Role/position
-role: M1
+role: M2
+
+user_groups:
+  - Grad Students
+
+weight: 2
 
 # Organizations/Affiliations
 #organizations:
@@ -69,7 +74,6 @@ role: M1
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - Grad Students
+
 ---
 

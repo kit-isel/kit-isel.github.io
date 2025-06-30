@@ -1,26 +1,25 @@
 ---
 # Display name
-title: 井上 智博
+title: 田崎　悠
 
 # Full name (for SEO)
-first_name: 智博
-last_name: 井上
+first_name: 悠
+last_name: 田崎
 
 # Username (this should match the folder name)
 authors:
-  - t-inoue
+  - y-tasaki
 
 # Is this the primary user of the site?
 superuser: false
 
+user_groups:
+  - Undergrad Students
 
 # Role/position
-role: M1
+role: B4
 
-user_groups: 
-  - Grad Students
-
-weight: 3
+weight: 7
 
 # Organizations/Affiliations
 # organizations:

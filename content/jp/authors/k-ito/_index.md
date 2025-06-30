@@ -3,8 +3,8 @@
 title:  伊藤 主馬
 
 # Full name (for SEO)
-first_name: 伊藤
-last_name: 主馬
+first_name: 主馬
+last_name: 伊藤
 
 # Username (this should match the folder name)
 authors:
@@ -13,8 +13,13 @@ authors:
 # Is this the primary user of the site?
 superuser: false
 
+user_groups:
+  - Alumni
+
 # Role/position
-role: B4
+role: 2024年度卒業生
+
+weight: 10
 
 # Organizations/Affiliations
 # organizations:
@@ -70,7 +75,4 @@ role: B4
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 
-user_groups:
-  - Undergrad Students
 ---
-# 

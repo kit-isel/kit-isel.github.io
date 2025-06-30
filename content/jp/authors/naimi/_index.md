@@ -1,26 +1,25 @@
 ---
 # Display name
-title: 井上 智博
+title: MUHAMMAD NAIMI NAFIS BIN NORLISAM
 
 # Full name (for SEO)
-first_name: 智博
-last_name: 井上
+first_name: NAIMI NAFIS BIN NORLISAM
+last_name: MUHAMMAD
 
 # Username (this should match the folder name)
 authors:
-  - t-inoue
+  - naimi
 
 # Is this the primary user of the site?
 superuser: false
 
+user_groups:
+  - Undergrad Students
 
 # Role/position
-role: M1
+role: B4
 
-user_groups: 
-  - Grad Students
-
-weight: 3
+weight: 8
 
 # Organizations/Affiliations
 # organizations:

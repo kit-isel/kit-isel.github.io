@@ -3,14 +3,23 @@
 title: 崔 恩瀞
 
 # Full Name (for SEO)
-#first_name: Nelson
-#last_name: Bighetti
+first_name: 恩瀞
+last_name: 崔
+
+# Username (this should match the folder name)
+authors: 
+  - echoi
 
 # Is this the primary user of the site?
 superuser: false
 
+user_groups:
+  - Staff
+
 # Role/position
 role: 准教授
+
+weight: 1
 
 # Organizations/Affiliations
 organizations:
@@ -68,8 +77,7 @@ highlight_name: false
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - Staff
+
 ---
 
 詳細な内容はreserchmapへ

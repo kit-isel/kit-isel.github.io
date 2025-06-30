@@ -3,8 +3,8 @@
 title: 大倉 涼介
 
 # Full name (for SEO)
-first_name: 大倉
-last_name: 涼介
+first_name: 涼介
+last_name: 大倉
 
 # Username (this should match the folder name)
 authors:
@@ -13,8 +13,13 @@ authors:
 # Is this the primary user of the site?
 superuser: false
 
+user_groups:  
+ - Grad Students
+
 # Role/position
-role: B4
+role: M1
+
+weight: 4
 
 # Organizations/Affiliations
 # organizations:
@@ -69,7 +74,4 @@ role: B4
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-
-user_groups:
-  - Undergrad Students
 ---
