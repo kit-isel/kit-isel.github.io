@@ -20,7 +20,7 @@ role: M1
 user_groups: 
   - Grad Students
 
-weight: 3
+#weight: 3
 
 # Organizations/Affiliations
 # organizations:

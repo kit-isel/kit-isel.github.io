@@ -8,7 +8,7 @@ last_name: 崔
 
 # Username (this should match the folder name)
 authors: 
-  - echoi
+  - e-choi
 
 # Is this the primary user of the site?
 superuser: false
@@ -19,7 +19,7 @@ user_groups:
 # Role/position
 role: 准教授
 
-weight: 1
+#weight: 1
 
 # Organizations/Affiliations
 organizations:

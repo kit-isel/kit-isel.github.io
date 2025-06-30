@@ -19,7 +19,7 @@ user_groups:
 # Role/position
 role: 2024年度卒業生
 
-weight: 10
+#weight: 10
 
 # Organizations/Affiliations
 # organizations:

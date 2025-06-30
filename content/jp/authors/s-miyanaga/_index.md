@@ -19,7 +19,7 @@ role: M2
 user_groups:
   - Grad Students
 
-weight: 2
+#weight: 2
 
 # Organizations/Affiliations
 #organizations:

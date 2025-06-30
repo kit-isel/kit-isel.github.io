@@ -19,7 +19,7 @@ user_groups:
 # Role/position
 role: B4
 
-weight: 7
+#weight: 7
 
 # Organizations/Affiliations
 # organizations:

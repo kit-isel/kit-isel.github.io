@@ -1,6 +1,6 @@
 ---
 title: People
-date: 2026-06-30
+date: 2025-06-24
 
 type: landing
 
@@ -15,7 +15,7 @@ sections:
           - Grad Students
           - Undergrad Students
           - Alumni
-      sort_by: weight
+      sort_by: Params.last_name
       sort_ascending: true
     design:
       show_interests: false
