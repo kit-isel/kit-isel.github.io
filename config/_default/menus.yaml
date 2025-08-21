@@ -21,6 +21,11 @@ main:
     url: publication
     weight: 40
 
+
   - name: アクセス
     url: access
     weight: 50
+
+  - name: アプリケーション開発
+    url: application
+    weight: 60
