@@ -1,8 +1,7 @@
 ---
-title: "（2024年度）ToDoリスト"
-date: 2024-10-03
+title: "ToDoリスト"
+summary: ""
 ---
-<!--more-->
 # アプリ概要
 ## ToDoリストのページ
 <img width="1439" alt="ToDoリストのページ" src="https://img.esa.io/uploads/production/attachments/21530/2024/10/10/104558/42852c21-6288-4d8f-bf65-4e246cb15ea2.png">

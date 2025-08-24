@@ -4,28 +4,29 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: 研究室紹介
-    url: lab
+  - name: "研究室紹介"
+    url: "lab"
     weight: 10
 
-  - name: ニュース
-    url: news
+  - name: "ニュース"
+    url: "news"
     weight: 20
 
-  - name: メンバー
-    url: member
+  - name: "メンバー"
+    url: "member"
     weight: 30
 
 
-  - name: 研究発表
-    url: publication
+  - name: "アプリケーション開発"
+    url: "application"
+    weight: 35
+
+  - name: "研究発表"
+    url: "publication"
     weight: 40
 
 
-  - name: アクセス
-    url: access
+  - name: "アクセス"
+    url: "access"
     weight: 50
 
-  - name: アプリケーション開発
-    url: application
-    weight: 60
