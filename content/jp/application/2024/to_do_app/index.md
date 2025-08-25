@@ -1,14 +1,13 @@
 ---
 title: "ToDoリスト"
-showDate: false  
+date: 2024-10-03
 ---
 
 ## ToDoリストのページ
-<img width="1439" alt="ToDoリストのページ" src="https://img.esa.io/uploads/production/attachments/21530/2024/10/10/104558/42852c21-6288-4d8f-bf65-4e246cb15ea2.png">
+![ToDoリストのページ](t10.png)
+![ToDoリストのページ（タスク完了後）](t20.png)
+![ToDoリストのページ（完了したタスクを表示）](t30.png)
 
-<img width="720" alt="ToDoリストのページ（タスク完了後）" src="https://img.esa.io/uploads/production/attachments/21530/2024/10/10/104558/de829e51-d5e9-4bd8-a0ca-60a59998d701.png">
-
-<img width="1440" alt="ToDoリストのページ（完了したタスクを表示）" src="https://img.esa.io/uploads/production/attachments/21530/2024/10/10/104558/9aada2b3-3384-401a-8b1b-576d894dd04d.png">
 
 ToDoリストを表示するページです。
 適宜、ToDoを追加することができ、一括で削除することができます。
@@ -20,9 +19,8 @@ ToDoリストを表示するページです。
     - チェックしたToDoは非表示にすることができるようにしました。これにより、ToDoリストがスッキリします✨
 
 ## ポモドーロタイマーのページ
-<img width="1440" alt="ポモドーロタイマーのページ" src="https://img.esa.io/uploads/production/attachments/21530/2024/10/10/104558/9aee11bd-2b51-4195-94c7-4e0d9206347f.png">
-
-<img width="1440" alt="ポモドーロタイマーのページ（タイマー稼働時）" src="https://img.esa.io/uploads/production/attachments/21530/2024/10/10/104558/c6d50abc-4a29-462c-861a-5093d2040c39.png">
+![ポモドーロタイマーのページ](t40.png)
+![ポモドーロタイマーのページ（タイマー稼働時）](t50.png)
 
 各ToDoの作業ページです。
 中央にタイマーが表示されています。タイマーの終了時には音声で知らせてくれます♪
@@ -35,7 +33,7 @@ ToDoリストを表示するページです。
     - 作業にどれくらいの時間を費やしたのかを振り返ることができるよう工夫しました。
     - 自分は「キリがいいところまで！！」という考えで、作業を続けてしまい、予定よりも時間をかけてしまった🤦‍♂️ということがあるので、これがその抑止力になればいいなと考え、作りました。
 
-<img width="1440" alt="ポモドーロタイマーのページ（YouTube再生機能）" src="https://img.esa.io/uploads/production/attachments/21530/2024/10/10/104558/afae3c21-8313-4f64-bcab-4fd54ea94f8f.png">
+![ポモドーロタイマーのページ（YouTube再生機能）](t60.png)
 
 さらに、おまけ的な機能で、YouTubeの動画を見られるようにしました。（自分が作業するときに作業用のBGMをかけることが多いので🎧）
 上で流してる動画は[こちら](https://www.youtube.com/watch?v=vr9dLvJs7VE)。
