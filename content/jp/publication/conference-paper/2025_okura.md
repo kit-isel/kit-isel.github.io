@@ -1,25 +1,24 @@
 ---
-title: 'オープンソースソフトウェアでのChatGPT提案コードの再利用動向分析'
+title: 'ChatGPTを用いたプルリクエストにおけるレビューメトリクスと感情分析の特徴調査'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - s-miyanaga
-  - e-choi
-  - 西浦 生成
-  - 水野 修
+- r-okura
+- e-choi
+
 
 # Author notes (optional)
 #author_notes:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: '2024-06-01'
-doi: 'https://doi.org/10.60241/ssproceedings.202406.0_22'
+date: '2025-11-24'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-06-01'
+publishDate: '2025-11-24'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -27,10 +26,10 @@ publishDate: '2024-06-01'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: ソフトウェアシンポジウム2024論文集, pp.22-31
+publication: 情報処理学会研究報告 Vol.2025-SE-221 No.2. pp.1-8
 #publication_short: In *ICW*
 
-abstract: ChatGPTのような大規模な言語モデルの登場は，ソフトウェア開発の状況を一変させた．ソフトウェア開発における ChatGPTの利用は普及しており，GitHub上のオープンソースプロジェクトにおいては，ChatGPTを使用して提案されたコードを再利用している場合がある．本研究では，ソフトウェア開発におけるChatGPTの利用動向を明らかにする．具体的には，まず，ChatGPTが提案したコードは開発者によってどのように再利用されているかを，次に，開発者は ChatGPTが提案したコードを再利用するまでにどの程度の回数 ChatGPTと会話しているかを調査した．調査の結果，ChatGPTが提案したコードは開発者によって再利用される際，修正せず再利用されることが最も多く，次に，コードの機能的な修正をして再利用されることが多いとわかった．また，開発者は ChatGPTが提案したコードを再利用するまでに，複数回ChatGPTと会話していることが多いとわかった．さらに，その会話回数は，修正せず再利用するとき，少なくなる傾向にあり，機能的な修正をして再利用するとき，多くなる傾向にあるとわかった．
+abstract: 近年，ChatGPT の優れた性能によりコードレビューやコード生成など，ソフトウェア開発の様々なタスクで活用されている．コードレビューにおいてプルリクエストの作成に ChatGPTが用いられているが，ChatGPTを用いたプルリクエストの特徴やそのプルリクエストへの PR 作成者の感情は明らかになっていない．そこで，本研究では，ChatGPTを用いたプルリクエストの特徴及び PR 作成者への感情を調査する．そのため，GithubからChatGPTを用いたプルリクエストを収集し，レビューメトリクスや感情分析技術を用いて特徴を調査した．調査の結果，コード生成のためのChatGPTの活用はPR作成者の負担を軽減する一方で，レビューアの負担を増大させる可能性があるため，利用には注意が必要であることがわかった
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

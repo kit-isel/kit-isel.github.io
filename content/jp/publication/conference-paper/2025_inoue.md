@@ -1,25 +1,23 @@
 ---
-title: 'オープンソースソフトウェアでのChatGPT提案コードの再利用動向分析'
+title: 'コメントに着目したLLM生成コードの検出精度の比較調査'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - s-miyanaga
-  - e-choi
-  - 西浦 生成
-  - 水野 修
+- t-inoue
+- e-choi
 
 # Author notes (optional)
 #author_notes:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: '2024-06-01'
-doi: 'https://doi.org/10.60241/ssproceedings.202406.0_22'
+date: '2025-11-06'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-06-01'
+publishDate: '2025-11-06'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -27,10 +25,10 @@ publishDate: '2024-06-01'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: ソフトウェアシンポジウム2024論文集, pp.22-31
+publication: 第32回ソフトウェア工学の基礎ワークショップ(FOSE2025) 
 #publication_short: In *ICW*
 
-abstract: ChatGPTのような大規模な言語モデルの登場は，ソフトウェア開発の状況を一変させた．ソフトウェア開発における ChatGPTの利用は普及しており，GitHub上のオープンソースプロジェクトにおいては，ChatGPTを使用して提案されたコードを再利用している場合がある．本研究では，ソフトウェア開発におけるChatGPTの利用動向を明らかにする．具体的には，まず，ChatGPTが提案したコードは開発者によってどのように再利用されているかを，次に，開発者は ChatGPTが提案したコードを再利用するまでにどの程度の回数 ChatGPTと会話しているかを調査した．調査の結果，ChatGPTが提案したコードは開発者によって再利用される際，修正せず再利用されることが最も多く，次に，コードの機能的な修正をして再利用されることが多いとわかった．また，開発者は ChatGPTが提案したコードを再利用するまでに，複数回ChatGPTと会話していることが多いとわかった．さらに，その会話回数は，修正せず再利用するとき，少なくなる傾向にあり，機能的な修正をして再利用するとき，多くなる傾向にあるとわかった．
+abstract: LLM生成コードには，人間が書いたコードとは異なる特徴が現れる可能性がある．特に，LLMが生成した自然言語文には，人間が書いた文とは異なる特徴があることが知られているため，コード中のコメントにもLLM特有の特徴が表れている可能性がある．しかし，LLM生成コードの検出においてファインチューニングに用いられているデータ中のコメントの有無が検出精度に与える影響については調査した既存研究は，我々が知る限り存在しない．そこで本研究では，LLMを用いたLLM生成コード検出において，ファインチューニングに用いるデータに含まれるコメントの有無が検出精度にどのように影響をするかを調査した．具体的には，T5，CodeT5，BERT，GraphCodeBERTの4つのLLMを用い，コメントの有無が異なるPythonコードデータセットを用いてファインチューニングおよび評価を行った．その結果，コメントを含むデータでファインチューニングしたLLMは，コメントを含むコードに対しては高い検出精度を示した一方で，コメントを含まないコードに対しては検出精度が著しく低下することが確認された．また，コメントを含まないデータでファインチューニングしたLLMは，コメントの有無にかかわらず安定して高い検出精度を示した．
 
 # Summary. An optional shortened abstract.
 #summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
