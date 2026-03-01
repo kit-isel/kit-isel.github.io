@@ -49,3 +49,7 @@ The `main` branch represents the production site.
 All changes merged into `main` are automatically deployed via GitHub Actions.
 
 Workflow: `.github/workflows/publish.yml`
+
+## Development Guide
+
+See [CONTRIBUTING.md](./COTRIBUTING.md)
