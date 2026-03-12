@@ -1,5 +1,5 @@
 ---
-title: 研究発表・学位論文一覧
+title: 研究成果
 
 # Listing view
 view: citation
