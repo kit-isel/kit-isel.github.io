@@ -21,12 +21,16 @@ main:
     url: "application"
     weight: 35
 
-  - name: "研究発表"
+  - name: "研究成果"
     url: "publication"
     weight: 40
 
 
+  - name: "学位論文"
+    url: "thesis"
+    weight: 50
+
   - name: "アクセス"
     url: "access"
-    weight: 50
+    weight: 60
 
