@@ -4,8 +4,8 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: "研究室紹介"
-    url: "lab"
+  - name: "研究テーマ"
+    url: "research"
     weight: 10
 
   - name: "ニュース"
@@ -16,19 +16,36 @@ main:
     url: "member"
     weight: 30
 
-
-  - name: "アプリケーション開発"
-    url: "application"
-    weight: 35
-
-  - name: "研究成果"
-    url: "publication"
+  - name: "研究室志望の方へ"
+    identifier: "prospective"
+    url: "prospective"
     weight: 40
 
 
-  - name: "学位論文"
-    url: "thesis"
+  - name: "当研究室について"
+    parent: "prospective"
+    url: "prospective"
+    weight: 41
+
+  - name: "アプリケーション開発"
+    parent: "prospective"
+    url: "prospective/application"
+    weight: 42
+
+  - name: "研究業績"
+    identifier: "publication"
+    url: "publication"
     weight: 50
+
+  - name: "研究実績"
+    parent: "publication"
+    url: "publication"
+    weight: 51
+
+  - name: "学位論文"
+    parent: "publication"
+    url: "publication/thesis"
+    weight: 52
 
   - name: "アクセス"
     url: "access"

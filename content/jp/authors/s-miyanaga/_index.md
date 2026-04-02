@@ -14,12 +14,12 @@ authors:
 superuser: false
 
 # Role/position
-role: M2
+role: 2025年度卒業生
 
 user_groups:
-  - Grad Students
+  - Alumni
 
-#weight: 2
+#weight: 51
 
 # Organizations/Affiliations
 #organizations:

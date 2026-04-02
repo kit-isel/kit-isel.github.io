@@ -15,12 +15,12 @@ superuser: false
 
 
 # Role/position
-role: M1
+role: Graduate Students
 
 user_groups: 
-  - Grad Students
+  - M2
 
-#weight: 3
+weight: 1
 
 # Organizations/Affiliations
 # organizations:

@@ -12,10 +12,12 @@ sections:
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
           - Staff
-          - Grad Students
+          - M2
+          - M1
           - Undergrad Students
+          - Visiting Students
           - Alumni
-      sort_by: Params.last_name
+      sort_by: Params.weight
       sort_ascending: true
     design:
       show_interests: false

@@ -14,12 +14,12 @@ authors:
 superuser: false
 
 user_groups:
-  - Undergrad Students
+  - M1
 
 # Role/position
-role: B4
+role: Graduate Students
 
-#weight: 8
+weight: 15
 
 # Organizations/Affiliations
 # organizations:

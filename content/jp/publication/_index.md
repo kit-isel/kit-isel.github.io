@@ -1,5 +1,5 @@
 ---
-title: 研究成果
+title: 研究実績
 
 # Listing view
 view: citation

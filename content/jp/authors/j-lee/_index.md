@@ -1,25 +1,25 @@
 ---
 # Display name
-title: 橋本　瞳
+title: JUCHAN LEE
 
 # Full name (for SEO)
-first_name: 瞳
-last_name: 橋本
+first_name: JUCHAN
+last_name: LEE
 
 # Username (this should match the folder name)
 authors:
-  - h-hashimoto
+  - l-juchan
 
 # Is this the primary user of the site?
 superuser: false
 
-user_groups:
-  - M1
+user_groups:  
+ - Visiting Students
 
 # Role/position
-role: Graduate Students
+role: B4
 
-weight: 14
+weight: 2
 
 # Organizations/Affiliations
 # organizations:
@@ -74,5 +74,4 @@ weight: 14
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-
 ---
